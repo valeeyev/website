@@ -1,0 +1,37 @@
+.projects {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.project_container {
+  padding: 1rem;
+  border: #1f1f1f solid 3px;
+  background-color: #1f1f1f;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border-radius: 0.3rem;
+  justify-content: center;
+}
+.project_container a {
+  color: #fff;
+  line-height: 1.5;
+  font-family: var(--headfon0);
+  font-size: 1.1rem;
+  letter-spacing: 1.25px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 300;
+}
+.project_container a:hover {
+  text-decoration: underline;
+}
+.project_container a i {
+  width: fit-content;
+  padding: 0.2rem;
+}
